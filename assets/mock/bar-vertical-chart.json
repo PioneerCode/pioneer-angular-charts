@@ -1,8 +1,8 @@
 {
   "domainMax": 1000,
-  "height": 204,
+  "height": 200,
   "headerConfig": {
-    "title": "Bar Chart"
+    "title": "Bar Vertical Chart"
   },
   "data": [
     {

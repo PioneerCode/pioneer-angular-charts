@@ -1,0 +1,49 @@
+{
+  "domainMax": 1000,
+  "height": 200,
+  "headerConfig": {
+    "title": "Bar Horizontal Chart"
+  },
+  "data": [
+    {
+      "key": "1: Snack",
+      "data": [
+        {
+          "value": 400
+        }
+      ]
+    },
+    {
+      "key": "2: Snack",
+      "data": [
+        {
+          "value": 234
+        }
+      ]
+    },
+    {
+      "key": "3: Snack",
+      "data": [
+        {
+          "value": 522
+        }
+      ]
+    },
+    {
+      "key": "4: Snack",
+      "data": [
+        {
+          "value": 765
+        }
+      ]
+    },
+    {
+      "key": "5: Snack",
+      "data": [
+        {
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

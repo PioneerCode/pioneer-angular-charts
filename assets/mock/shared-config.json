@@ -1,0 +1,22 @@
+[
+  {
+    "data": [
+      {
+        "value": "height"
+      },
+      {
+        "value": "Height of chart component."
+      }
+    ]
+  },
+  {
+    "data": [
+      {
+        "value": "data"
+      },
+      {
+        "value": "Collection of IPcacData objects"
+      }
+    ]
+  }
+]
