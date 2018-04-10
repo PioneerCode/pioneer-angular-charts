@@ -1,8 +1,5 @@
 {
   "height": 200,
-  "headerConfig": {
-    "title": "Pie Chart"
-  },
   "data": [
     {
       "key": "Chocolate Chip",

@@ -2,9 +2,6 @@
   "domainMax": 1000,
   "height": 200,
   "isArea": true,
-  "headerConfig": {
-    "title": "Area Chart"
-  },
   "data": [
     {
       "data": [
