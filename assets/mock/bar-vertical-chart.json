@@ -3,7 +3,7 @@
   "height": 200,
   "data": [
     {
-      "key": "1: Snack",
+      "key": "Chips",
       "data": [
         {
           "value": 400
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "key": "2: Snack",
+      "key": "Brownie",
       "data": [
         {
           "value": 234
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "key": "3: Snack",
+      "key": "Gum",
       "data": [
         {
           "value": 522
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "key": "4: Snack",
+      "key": "Ice Cream",
       "data": [
         {
           "value": 765
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "key": "5: Snack",
+      "key": "Cake",
       "data": [
         {
           "value": 100
