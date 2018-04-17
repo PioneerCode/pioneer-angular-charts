@@ -75,6 +75,16 @@ MIT
 MIT
 MIT
 
+@pioneer-code/pioneer-charts@0.5.1
+MIT
+/**
+ * @license
+ * Copyright Chad Ramos & Pioneer Code.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://github.com/PioneerCode/pioneer-charts/blob/master/LICENSE
+ */
+
 @angular/platform-browser@5.2.8
 MIT
 MIT
