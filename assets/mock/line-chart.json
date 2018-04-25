@@ -2,6 +2,7 @@
   "domainMax": 1000,
   "height": 200,
   "isArea": false,
+  "enableEffects": true,
   "data": [
     {
       "data": [
