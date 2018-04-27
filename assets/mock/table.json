@@ -1,88 +1,150 @@
 {
-    "headerConfig": {
-      "title": "Table"
+  "height": 200,
+  "enableSticky": true,
+  "data": [
+    {
+      "data": [
+        {
+          "value": "Snack"
+        },
+        {
+          "value": "Taste"
+        },
+        {
+          "value": "Calories"
+        },
+        {
+          "value": "Score"
+        }
+      ]
     },
-    "height": 200,
-    "data": [
-      {
-        "data": [
-          {
-            "value": "Snack"
-          },
-          {
-            "value": "Taste"
-          },
-          {
-            "value": "Calories"
-          },
-          {
-            "value": "Score"
-          }
-        ]
-      },
-      {
-        "data": [
-          {
-            "value": "Chocolate Chip"
-          },
-          {
-            "value": "Tastey"
-          },
-          {
-            "value": "120"
-          },
-          {
-            "value": "8/10"
-          }
-        ]
-      },
-      {
-        "data": [
-          {
-            "value": "Chips"
-          },
-          {
-            "value": "Gross"
-          },
-          {
-            "value": "200"
-          },
-          {
-            "value": "7/10"
-          }
-        ]
-      },
-      {
-        "data": [
-          {
-            "value": "Brownie"
-          },
-          {
-            "value": "Yummy"
-          },
-          {
-            "value": "70"
-          },
-          {
-            "value": "5/10"
-          }
-        ]
-      },
-      {
-        "data": [
-          {
-            "value": "Peanuts"
-          },
-          {
-            "value": "Ick"
-          },
-          {
-            "value": "160"
-          },
-          {
-            "value": "4.5/10"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "data": [
+        {
+          "value": "Chocolate Chip"
+        },
+        {
+          "value": "Tastey"
+        },
+        {
+          "value": "120"
+        },
+        {
+          "value": "8/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Chips"
+        },
+        {
+          "value": "Gross"
+        },
+        {
+          "value": "200"
+        },
+        {
+          "value": "7/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Brownie"
+        },
+        {
+          "value": "Yummy"
+        },
+        {
+          "value": "70"
+        },
+        {
+          "value": "5/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Peanuts"
+        },
+        {
+          "value": "Ick"
+        },
+        {
+          "value": "160"
+        },
+        {
+          "value": "4.5/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Chocolate Chip"
+        },
+        {
+          "value": "Tastey"
+        },
+        {
+          "value": "120"
+        },
+        {
+          "value": "8/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Chips"
+        },
+        {
+          "value": "Gross"
+        },
+        {
+          "value": "200"
+        },
+        {
+          "value": "7/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Brownie"
+        },
+        {
+          "value": "Yummy"
+        },
+        {
+          "value": "70"
+        },
+        {
+          "value": "5/10"
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "value": "Peanuts"
+        },
+        {
+          "value": "Ick"
+        },
+        {
+          "value": "160"
+        },
+        {
+          "value": "4.5/10"
+        }
+      ]
+    }
+  ]
+}

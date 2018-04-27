@@ -75,7 +75,7 @@ MIT
 MIT
 MIT
 
-@pioneer-code/pioneer-charts@0.7.1
+@pioneer-code/pioneer-charts@0.8.0
 MIT
 /**
  * @license
