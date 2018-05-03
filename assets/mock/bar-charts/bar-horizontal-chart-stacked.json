@@ -1,22 +1,42 @@
 {
   "domainMax": 1000,
   "height": 200,
-  "isGroup": false,
+  "isStacked": true,
   "thresholds": [
     {
-      "value": 555
+      "data": [
+        {
+          "value": 555
+        }
+      ]
     },
     {
-      "value": 600
+      "data": [
+        {
+          "value": 600
+        }
+      ]
     },
     {
-      "value": 777
+      "data": [
+        {
+          "value": 777
+        }
+      ]
     },
     {
-      "value": 234
+      "data": [
+        {
+          "value": 234
+        }
+      ]
     },
     {
-      "value": 444
+      "data": [
+        {
+          "value": 444
+        }
+      ]
     }
   ],
   "data": [

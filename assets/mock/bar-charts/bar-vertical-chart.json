@@ -1,7 +1,7 @@
 {
   "domainMax": 1000,
   "height": 200,
-  "isGroup": false,
+  "isStacked": false,
   "thresholds": [
     {
       "value": 555

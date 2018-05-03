@@ -1,0 +1,21 @@
+{
+  "domainMax": 1,
+  "height": 200,
+  "isStacked": true,
+  "tickFormat": "Percentage",
+  "thresholds": [
+    {
+      "value": 0.75
+    }
+  ],
+  "data": [
+    {
+      "data": [
+        {
+          "key": "Week 1",
+          "value": 0.89
+        }
+      ]
+    }
+  ]
+}
