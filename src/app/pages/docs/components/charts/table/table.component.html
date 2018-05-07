@@ -1,0 +1,50 @@
+<pc-doc-layout [jumpNav]="jumpNav">
+  <div class="container-fluid">
+    <section class="pc-doc-section">
+      <pc-page-header [title]="'Table'" [anchor]="'table'"></pc-page-header>
+      <p class="lead">Table component configurable to utilize pagination, sticky headers, and emitted click events.</p>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <div class="pc-chart-container">
+            <pcac-header [config]="{'title':'Table'}"></pcac-header>
+            <pcac-table [config]="pcService.tableConfig"></pcac-table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <h3>Markup</h3>
+          <pc-prism language="markup" [code]="markupCode"></pc-prism>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <h3>API</h3>
+          <pc-prism language="javascript" [code]="importCode"></pc-prism>
+          <pc-base-config>
+            <tr>
+              <td>enableSticky</td>
+              <td>Enable sticky header and footer.</td>
+            </tr>
+          </pc-base-config>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <h3 id="contract">Contract</h3>
+          <div class="pc-config-container">
+            <pc-prism language="json" [code]="pcService.tableConfig | stringify"></pc-prism>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</pc-doc-layout>

@@ -1,0 +1,46 @@
+<pc-doc-layout [jumpNav]="jumpNav">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <section class="pc-doc-section">
+          <pc-page-header [title]="'Data Contract'" [anchor]="'data-contract'"></pc-page-header>
+          <p class="lead">Charts in the Pioneer Charts library utilize a shared based configuration for simplicity and familiarization.</p>
+          <p>The base interface for all configuration of a chart is centered around the idea that raw data, no matter how complex,
+            can always be expressed as a multi-dimensional array.</p>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="data">IPcacData</h3>
+          <pc-prism language="typescript" [code]="data"></pc-prism>
+          <p>When a configuration interface is created for a chart, it starts off with a representation of raw data.
+            <b>data: IPcacData[];</b> represent the base of our multi-dimensional array that we discussed above.
+          </p>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="chart-config">IPcacChartConfig</h3>
+          <pc-prism language="typescript" [code]="baseConfig"></pc-prism>
+          <p>A lot of charts inside the Pioneer Charts library share basic configuration parameters. Of which are represented
+            in this interface. We account for these shared parameters in this interface, of which has a property of the type
+            <b>IPcacData[]</b>.
+          </p>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="new-chart-config">New Chart Config</h3>
+          <p>Now that we have an interface that effectively represent shared aspects of most charts and defines a repeatable
+            and familiar contract to represent raw data, we are in a position to make chart specif configuration. Each chart
+            in the Pioneer Chart library typically extends
+            <b>IPcacChartConfig</b> to set a bases for configuration and provides additional chart specific configuration alongside
+            of it. For example, in the case of a bar chart, the configure looks similar to the following.</p>
+          <pc-prism language="typescript" [code]="barChartConfig"></pc-prism>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="map">Binding Configuration</h3>
+          <p>When adding a chart to your markup, you will typically bind your data and configuration on the
+            <b>[config]</b> input of that chart.</p>
+          <pc-prism language="html" [code]="bindConfig"></pc-prism>
+          <p>To strongly type your config, you typically want to supply the specific charts config interface as the typing.</p>
+          <pc-prism language="typescript" [code]="typing"></pc-prism>
+        </section>
+      </div>
+    </div>
+  </div>
+</pc-doc-layout>

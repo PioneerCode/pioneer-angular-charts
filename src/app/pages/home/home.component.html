@@ -1,0 +1,82 @@
+<pc-public-layout>
+  <header>
+    <h1 class="display-4">Pioneer Charts</h1>
+    <p class="lead">Data Visualizations in Angular, beautiful & simple.</p>
+    <button type="button" class="btn btn-outline-light" routerLink="/docs/guides/introduction" (click)="pcService.currentMainRoute = 'get-started'">Get Started</button>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon fill="white" points="0,100 100,0 100,100" />
+    </svg>
+  </header>
+  <div class="bullets">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <section class="bullet">
+            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+            <h3>Beautiful Charts</h3>
+            <p>Data Visualizations don't need to be ugly! Pioneer Charts comes with a beautiful default theme of which is customizable
+              to suit your needs.</p>
+          </section>
+        </div>
+        <div class="col-sm">
+          <section class="bullet">
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+            <h3>Open Source</h3>
+            <p>Pioneer Charts is developed and maintained in the
+              <a href="https://github.com/PioneerCode/pioneer-charts" title="Pioneer Charts Github">open</a>. Have a feature request or found a bug? Contributions are welcome!</p>
+          </section>
+        </div>
+        <div class="col-sm">
+          <section class="bullet">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h3>Battle Tested Code</h3>
+            <p>Pioneer Charts is built on top of
+              <a href="angular.io" title="Angular">Angular</a> and backed by
+              <a href="https://d3js.org/" title="D3">D3</a>. Of which produces performant and consistent rendering across modern browser.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="easy">
+    <h2 class="display-4">Charts made simple</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead">Pioneer Charts allows you to create beautiful, consistent and responsive charts with minimal effort. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container bullet-bottom">
+      <div class="row align-items-center">
+        <div class="col-sm">
+          <div class="bullet-left">
+            <div class="pc-chart-container">
+              <pcac-header [config]="{'title':'Calories Per Day'}"></pcac-header>
+              <pcac-line-area-chart [config]="pcService.areaChartConfig"></pcac-line-area-chart>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="bullet-right">
+            <h4>Standing on the shoulders of giants</h4>
+            <p>Pioneer Charts utilizes
+              <a href="angular.io" title="Angular">Angular</a> as its delivery method. Meaning, if you are familiar with
+              <a href="angular.io" title="Angular">Angular</a> then you are familiar with how the charts inside of Pioneer Charts are added to your project!</p>
+            <p>Charts inside of Pioneer Charts are also built with the popular data-driven document manipulation library,
+              <a href="https://d3js.org/" title="D3">D3</a>. This allows us to provide rich charts that are powerful, web-standard compliant, and easy to maintain
+              and enhance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm text-center">
+          <button type="button" class="btn btn-outline-dark" routerLink="/docs/guides/introduction" (click)="pcService.currentMainRoute = 'get-started'">Get Started</button>
+          <button type="button" class="btn btn-outline-dark" routerLink="/charts" (click)="pcService.currentMainRoute = 'charts'">View Charts</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</pc-public-layout>

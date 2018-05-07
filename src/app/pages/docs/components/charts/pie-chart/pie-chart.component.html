@@ -1,0 +1,45 @@
+<pc-doc-layout [jumpNav]="jumpNav">
+  <div class="container-fluid">
+    <section class="pc-doc-section">
+      <pc-page-header [title]="'Pie Chart'" [anchor]="'pie-chart'"></pc-page-header>
+      <p class="lead">Pie chart component with beautiful animated transitions.</p>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-6">
+          <div class="pc-chart-container">
+            <pcac-header [config]="{'title':'Pie Chart'}"></pcac-header>
+            <pcac-pie-chart [config]="pcService.pieChartConfig"></pcac-pie-chart>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <h3>Markup</h3>
+          <pc-prism language="markup" [code]="markupCode"></pc-prism>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row">
+        <div class="col-sm">
+          <h3>API</h3>
+          <pc-prism language="javascript" [code]="importCode"></pc-prism>
+          <pc-base-config></pc-base-config>
+        </div>
+      </div>
+    </section>
+    <section class="pc-doc-section">
+      <div class="row ">
+        <div class="col-sm">
+          <h3 id="contract">Contract</h3>
+          <div class="pc-config-container">
+            <pc-prism language="json" [code]="pcService.pieChartConfig | stringify"></pc-prism>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</pc-doc-layout>

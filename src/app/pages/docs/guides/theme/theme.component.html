@@ -1,0 +1,71 @@
+<pc-doc-layout [jumpNav]="jumpNav">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <section class="pc-doc-section">
+          <pc-page-header [title]="'Theme'" [anchor]="'theme'"></pc-page-header>
+          <p class="lead">Customizing the appearance of Pioneer Charts is managed via overriding Sass variables and combining those overrides
+            in a set of service calls.</p>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="default-theme">Default Theme</h3>
+          <p>A compiled version of the default theme is located at the following:</p>
+          <pre class="pc-prism">./node_modules/@pioneer-code/pioneer-charts/
+  |-  dist/styles
+  |   |-  pioneer-code-pioneer-charts.css
+  |   |-  pioneer-code-pioneer-charts.css.map
+  |   |-  pioneer-code-pioneer-charts.min.css
+  |   |-  pioneer-code-pioneer-charts.min.css.map</pre>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="sass">Sass</h3>
+          <p>If you prefer adding the default theme to your project through a Sass build, you need to make reference to the
+            root Pioneer Chart Sass file in your project like so.</p>
+          <pc-prism language="typescript" [code]="importStylesCode"></pc-prism>
+        </section>
+        <section class="pc-doc-section">
+          <h3 id="customize">Customize</h3>
+          <p>Styling for Pioneer Charts takes place at two different levels. The first being css and the second being through
+            code. The need to do align styling across css and javascript comes from the dynamic nature styles are applied
+            through
+            <a href="https://d3js.org/" title="D3">D3</a>.
+          </p>
+          <h5 id="styles">Styles</h5>
+          <p>Much like before, you are going to want to import the Pioneer Chart Sass code into your code. The difference being,
+            you will now want to override Pioneer Chart variables at the same time.</p>
+          <pc-prism language="typescript" [code]="importStylesCodeOverride"></pc-prism>
+          <p>For a full reference of variables, you can look at the default theme import file locate at the following:</p>
+          <pre class="pc-prism">./node_modules/@pioneer-code/pioneer-charts/src/styles/core/theme/imports.scss</pre>
+          <h5 id="color-service">Color Service</h5>
+          <p>In some cases, the charts that utilize d3 apply styles dynamically. For example, in a bar chart, a d3 iteration
+            over a collection of data that produces individual bars in the chart might require each bar to be a different
+            color. Meaning, in that piece of code that colors are being applied from the color service.</p>
+          <pc-prism language="typescript" [code]="colorServiceExample"></pc-prism>
+          <p>In order to override these values in your code, you will first need to import the
+            <b>PcacColorService</b> into your
+            <b>App Component</b>.</p>
+          <pc-prism language="typescript" [code]="importColorService"></pc-prism>
+          <p>Now that you have access to the colorService, you can start interacting with its API directly in
+            <b>ngOnInit</b>.</p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="width: 30%">Call</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>setScale(colors: string[])</td>
+                <td>Supply n-number of hex color values. These values will be applied to charts that require dynamic coloring.
+                  If the supplied length is less then the number of data iterations in the chart, the coloring will circle
+                  back to the start of the color collection. Typically you want this to correspond with the
+                  <b>theme-colors(...)</b> Sass variable.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+  </div>
+</pc-doc-layout>

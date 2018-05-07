@@ -1,0 +1,7 @@
+<section class=" pc-doc-jump-nav">
+  <ul class="nav flex-column">
+    <li class="nav-item" *ngFor="let jump of jumpNav" [ngClass]="getLevelClass(jump)">
+      <a [routerLink]="currentRoute" fragment="{{jump.value}}">{{jump.key}}</a>
+    </li>
+  </ul>
+</section>

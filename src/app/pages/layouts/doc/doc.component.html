@@ -1,0 +1,13 @@
+<section class="container-fluid pc-doc-container">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 pc-doc-sidebar">
+      <pc-doc-nav></pc-doc-nav>
+    </div>
+    <main class="col-12 col-md-9 col-xl-8 pc-doc-content">
+      <ng-content></ng-content>
+    </main>
+    <div class="d-none d-xl-block col-xl-2">
+      <pc-jump-nav [jumpNav]="jumpNav"></pc-jump-nav>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+@import "../../../imports";
+.pc-doc-jump-nav {
+    padding-top: 2rem;
+    height: calc(100vh - 56px);
+    position: sticky;
+    top: 56px;
+    overflow-y: auto;
+    .nav-item {
+        a {
+            cursor: pointer;
+            color: gray("600");
+            font-size: 14px;
+            &:hover {
+                color: theme-color("primary-light");
+            }
+        }
+    }
+    ul {
+        ul {
+            border: none;
+            padding-left: 1rem;
+        }
+
+    }
+    .level-1,
+    .level-2,
+    .level-3 {
+        padding-left: 0.5rem;
+        border-left: 1px gray("200") solid;
+        &.active {
+          border-left: 3px theme-color("primary-light") solid;
+        }
+    }
+    .level-1 {
+        padding-bottom: 0.25rem;
+        display: inline-block;
+        border-bottom: 1px gray("200") solid;
+        font-weight: 500;
+    }
+    .level-3 {
+        padding-left: 1rem;
+    }
+}
