@@ -3,6 +3,8 @@
   "height": 200,
   "isStacked": true,
   "tickFormat": "Percentage",
+  "hideGrid": true,
+  "hideAxis": true,
   "thresholds": [
     {
       "value": 0.75
