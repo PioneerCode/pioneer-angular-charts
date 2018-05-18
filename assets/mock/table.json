@@ -1,6 +1,7 @@
 {
   "height": 200,
-  "enableSticky": true,
+  "enableStickyHeader": true,
+  "enableStickyFooter": true,
   "data": [
     {
       "data": [
