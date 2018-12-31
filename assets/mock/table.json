@@ -2,6 +2,7 @@
   "height": 200,
   "enableStickyHeader": true,
   "enableStickyFooter": true,
+  "enableActionRow": true,
   "data": [
     {
       "data": [
