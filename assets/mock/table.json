@@ -3,6 +3,7 @@
   "enableStickyHeader": true,
   "enableStickyFooter": true,
   "enableActionRow": true,
+  "hideColumnOne": false,
   "data": [
     {
       "data": [
