@@ -3,7 +3,8 @@
   "enableStickyHeader": true,
   "enableStickyFooter": true,
   "enableActionRow": true,
-  "hideColumnOne": false,
+  "enableEditAction": true,
+  "enableDeleteAction": true,
   "data": [
     {
       "data": [
