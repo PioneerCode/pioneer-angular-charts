@@ -1,0 +1,25 @@
+{
+  "height": 200,
+  "data": [
+    {
+      "key": "Chocolate Chip",
+      "value": 300
+    },
+    {
+      "key": "Chips",
+      "value": 123
+    },
+    {
+      "key": "Brownie",
+      "value": 898
+    },
+    {
+      "key": "Peanuts",
+      "value": 787
+    },
+    {
+      "key": "Candy",
+      "value": 600
+    }
+  ]
+}

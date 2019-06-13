@@ -1,0 +1,80 @@
+{
+  "domainMax": 1000,
+  "height": 200,
+  "isArea": false,
+  "enableEffects": true,
+  "data": [
+    {
+      "data": [
+        {
+          "key": "Chocolate Chip",
+          "value": 300
+        },
+        {
+          "key": "Chips",
+          "value": 123
+        },
+        {
+          "key": "Brownie",
+          "value": 898
+        },
+        {
+          "key": "Peanuts",
+          "value": 787
+        },
+        {
+          "key": "Candy",
+          "value": 600
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "key": "Gum",
+          "value": 125
+        },
+        {
+          "key": "Brownie",
+          "value": 60
+        },
+        {
+          "key": "Pretzels",
+          "value": 222
+        },
+        {
+          "key": "Gummy Bears",
+          "value": 387
+        },
+        {
+          "key": "Chocolate",
+          "value": 333
+        }
+      ]
+    },
+    {
+      "data": [
+        {
+          "key": "Snickers",
+          "value": 703
+        },
+        {
+          "key": "Pay Day",
+          "value": 18
+        },
+        {
+          "key": "Almond Joy",
+          "value": 657
+        },
+        {
+          "key": "KitKat",
+          "value": 875
+        },
+        {
+          "key": "Reese's",
+          "value": 145
+        }
+      ]
+    }
+  ]
+}

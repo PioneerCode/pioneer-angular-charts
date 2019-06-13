@@ -1,0 +1,57 @@
+{
+  "domainMax": 1000,
+  "height": 200,
+  "isStacked": false,
+  "thresholds": [
+    {
+      "value": 555
+    }
+  ],
+  "data": [
+    {
+      "key": "Chips",
+      "data": [
+        {
+          "key": "Calories",
+          "value": 400
+        }
+      ]
+    },
+    {
+      "key": "Brownie",
+      "data": [
+        {
+          "key": "Calories",
+          "value": 234
+        }
+      ]
+    },
+    {
+      "key": "Gum",
+      "data": [
+        {
+          "key": "Calories",
+          "value": 522
+        }
+      ]
+    },
+    {
+      "key": "Ice Cream",
+      "data": [
+        {
+          "key": "Calories",
+          "value": 765
+        }
+      ]
+    },
+    {
+      "key": "Cake",
+      "data": [
+        {
+          "key": "Calories",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}
