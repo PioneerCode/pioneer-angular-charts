@@ -4,6 +4,7 @@
   "enableStickyFooter": true,
   "enableActionRow": true,
   "enableEditAction": true,
+  "enableHistoryAction": true,
   "enableDeleteAction": true,
   "data": [
     {
